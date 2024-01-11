@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-@main
+@main //エントリーポイント（最初に読み込まれる部分）
 struct practiceAppApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
