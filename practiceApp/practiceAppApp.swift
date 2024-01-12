@@ -25,8 +25,9 @@ struct practiceAppApp: App {
 
     var body: some Scene {
         WindowGroup {
+            // contentにContentViewを使用(ContentView.swiftで定義)
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(sharedModelContainer) //
     }
 }
